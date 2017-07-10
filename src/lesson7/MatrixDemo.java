@@ -1,8 +1,5 @@
 package lesson7;
 
-/**
- * Created by Kronos on 10.07.2017.
- */
 public class MatrixDemo {
     public static void main(String[] args) {
         Matrix matrix = new Matrix();
