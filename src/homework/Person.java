@@ -2,22 +2,21 @@ package homework;
 
 public class Person {
     String fullName = "Semenov";
-    int age = 20;
+    int age = 32;
 
-    public Person(String fullName, int age) {
-        this.fullName = fullName;
+    public Person() {
+    }
+
+    public Person(String name, int age) {
+        this.fullName = name;
         this.age = age;
     }
 
-    public Person() {
-
+    public void talk() {
+        System.out.println(fullName + " ,которому " + age + " разговаривает");
     }
 
     public void move() {
-        System.out.println("Движение");
-    }
-
-    public void talk() {
-        System.out.println("Рассказывай");
+        System.out.println(fullName + " ,которому " + age + " дваигается");
     }
 }
